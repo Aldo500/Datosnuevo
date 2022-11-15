@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".List_view">
+    <ImageView
+        android:id="@+id/imageViewId"
+        android:layout_width="17dp"
+        android:layout_height="26dp"
+        android:layout_weight="1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewId1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageViewanad"
+        android:layout_width="1dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:src="@drawable/anadimg"
+        />
+    <ImageView
+        android:id="@+id/imageViewedit"
+        android:layout_width="1dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:src="@drawable/editimg"
+        />
+
+</LinearLayout>

@@ -11,54 +11,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="181dp"
-        android:layout_marginTop="85dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="182dp"
-        android:layout_marginBottom="16dp"
         android:text="Usuario"
-        app:layout_constraintBottom_toTopOf="@+id/cortext"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/cortext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="185dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="184dp"
-        android:layout_marginBottom="32dp"
-        android:text="Correo"
-        app:layout_constraintBottom_toTopOf="@+id/datetext"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/datosusr" />
-
-    <TextView
-        android:id="@+id/datetext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="186dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="187dp"
-        android:layout_marginBottom="492dp"
-        android:text="Fecha"
+    <ListView
+        android:id="@+id/listViewId"
+        android:layout_width="381dp"
+        android:layout_height="433dp"
+        android:layout_marginTop="167dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cortext" />
+        app:layout_constraintTop_toBottomOf="@+id/datosusr"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="186dp"
-        android:layout_marginTop="378dp"
-        android:layout_marginEnd="167dp"
-        android:layout_marginBottom="102dp"
-        android:text="HOLA"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/datetext" />
 </androidx.constraintlayout.widget.ConstraintLayout>
